@@ -7,22 +7,14 @@
 	var/hitsound = null
 	var/throwhitsound = null
 
+	alt_atoms = 1	// Items cannot be thrown through walls.
+
 	var/size = 3				// Replaces W_Class. Makes more sense to just say size now that we have mass.
 	var/list/damtype = new/list("brute" = 1, "edge" = 0, "sharp" = 0)	// A complexified damtype variable. A multiplier for certain damages.
 
-	var/slot_flags = 0			// This is used to determine on which slots an item can fit.
-	var/flags_inv 				//This flag is used to determine when items in someone's inventory cover others. IE helmets making it so you can't see glasses, etc.
-	var/body_parts_covered = 0 		//see setup.dm for appropriate bit flags
-
 	var/obj/item/master = null
 
-	var/strip_delay = 40
-	var/put_on_delay = 20
-
 	var/list/attack_verb = list() 	//Used in attackby() to say how something was attacked "[x] has been [z.attack_verb] by [y] with [z]"
-
-	var/suittoggled = 0
-	var/hooded = 0
 
 /obj/item/proc/suicide_act(mob/user)
 	return

@@ -1,0 +1,2 @@
+/obj/puddle
+	name = "puddle"

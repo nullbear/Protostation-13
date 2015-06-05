@@ -1,0 +1,2 @@
+/obj/powder
+	name = "powder"

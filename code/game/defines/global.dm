@@ -1,0 +1,5 @@
+var/runtime_log = file("data/logs/runtime_[world.realtime].log")
+var/generic_log = file("data/logs/generic_[world.realtime].log")
+var/action_log = file("data/logs/action_[world.realtime].log")
+var/combat_log = file("data/logs/combat_[world.realtime].log")
+var/admin_log = file("data/logs/admin_[world.realtime].log")

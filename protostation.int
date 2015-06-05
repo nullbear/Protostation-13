@@ -3,8 +3,8 @@
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 506.1247
 UPDATE_OBJ_TREE: ON
-DIR: code code\datums code\defines code\defines\mob code\defines\procs code\game code\game\objects code\game\objects\items code\modules code\modules\mob code\modules\mob\dead code\modules\mob\dead\observer maps 
-LAST_COMPILE_TIME: 1432887632
+DIR: code code\datums code\defines code\defines\mob code\defines\mob\dead code\defines\procs code\game code\game\defines code\game\objects code\game\objects\items code\game\objects\items\tools code\game\objects\structures code\game\turfs code\helpers 
+LAST_COMPILE_TIME: 1433363551
 AUTO_FILE_DIR: ON
 */
 // END_INTERNALS
